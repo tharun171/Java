@@ -1,4 +1,4 @@
-package com.Java.StandardEdition;
+package com.Java.StandardEditionTopics;
 
 public class AsciiValue {
 
