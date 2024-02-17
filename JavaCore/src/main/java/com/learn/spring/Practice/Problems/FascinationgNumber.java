@@ -1,4 +1,4 @@
-package com.learn.spring.JavaCore.Problems;
+package com.learn.spring.Practice.Problems;
 
 import java.util.Arrays;
 import java.util.HashSet;

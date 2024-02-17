@@ -1,4 +1,4 @@
-package com.learn.spring.JavaCore.Patterns;
+package com.learn.spring.Practice.Patterns;
 
 import java.util.Scanner;
 
