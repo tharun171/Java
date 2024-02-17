@@ -1,18 +1,19 @@
-package com.learn.spring.Practice.Patterns;
+package com.Practice.Patterns;
 
 import java.util.Scanner;
 
-public class RightTriangle_StarPattern {
+public class DownwardTriangle_StarPattern {
 	/*
 	 * enter number of rows: 
-6
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
+7
+* * * * * * * 
 * * * * * * 
-	 * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
 	 */
 
 	public static void main(String[] args) {
@@ -20,15 +21,14 @@ public class RightTriangle_StarPattern {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter number of rows: ");
 		int rows = sc.nextInt();
-		for(int i=1;i<=rows;i++)
+		for(int i=rows;i>=0;i--)
 		{
 			for(int j=1;j<=i;j++)
 			{
-				System.out.print("* ");
+				if(j<=i) {System.out.print("* ");}
+				else {System.out.println(" "+" ");}
 			}
 			System.out.println();
+			}
 		}
-		sc.close();
-	}
-
 }
